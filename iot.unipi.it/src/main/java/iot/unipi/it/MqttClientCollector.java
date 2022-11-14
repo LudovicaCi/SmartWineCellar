@@ -100,12 +100,12 @@ public class MqttClientCollector implements MqttCallback {
 							SmartCellarDB.insertTemperature(currentTempRed, "red");
 							
 							if(currentTempRed <  lowTempRed){
-								System.out.println("Temperature is too low! Switch off conditioner");
+								System.out.println("Temperature is too low! Conditioner in heat mode");
 								publish(this.pubTopicTempRed, "OFF");
 								regulatorTempRed = false;
 								
 							} else if(currentTempRed > upTempRed){
-								System.out.println("Temperature is too high! Switch on conditioner");
+								System.out.println("Temperature is too high! Conditioner in cool mode");
 								publish(this.pubTopicTempRed, "ON");
 								regulatorTempRed = true;
 							} 
@@ -125,12 +125,12 @@ public class MqttClientCollector implements MqttCallback {
 										SmartCellarDB.insertTemperature(currentTempWhite, "white");
 										
 										if(currentTempWhite < lowTempWhite){
-											System.out.println("Temperature is too low! Switch off conditioner");
+											System.out.println("Temperature is too low! Conditioner in heat mode");
 											publish(this.pubTopicTempWhite, "OFF");
 											regulatorTempWhite = false;
 											
 										} else if(currentTempWhite > upTempWhite){
-											System.out.println("Temperature is too high! Switch on conditioner");
+											System.out.println("Temperature is too high! Conditioner in cool mode");
 											publish(this.pubTopicTempWhite, "ON");
 											regulatorTempWhite = true;										} 
 										else {

@@ -2661,7 +2661,7 @@ LOAD /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/li
 LOAD /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
 END GROUP
 
-.text           0x0000000000001000    0x1563c
+.text           0x0000000000001000    0x1561c
  *(SORT_BY_ALIGNMENT(.isr_vector))
  .isr_vector    0x0000000000001000      0x200 build/nrf52840/dongle/obj/gcc_startup_nrf52840.o
                 0x0000000000001000                __isr_vector
@@ -4297,187 +4297,187 @@ END GROUP
  .text.mqtt_event
                 0x0000000000014078      0x1ac temperature_redwine.o
  .text.process_thread_process_for_temperature_redwine_sensor
-                0x0000000000014224      0x324 temperature_redwine.o
- .text          0x0000000000014548       0x30 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000000014548                __aeabi_uldivmod
- .text          0x0000000000014578      0x2d0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x0000000000014578                __udivmoddi4
- .text          0x0000000000014848        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
-                0x0000000000014848                __aeabi_ldiv0
-                0x0000000000014848                __aeabi_idiv0
- .text.srand    0x000000000001484c       0x5c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
-                0x000000000001484c                srand
- .text.rand     0x00000000000148a8       0x7c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
-                0x00000000000148a8                rand
+                0x0000000000014224      0x318 temperature_redwine.o
+ .text          0x000000000001453c       0x30 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000001453c                __aeabi_uldivmod
+ .text          0x000000000001456c      0x2d0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000001456c                __udivmoddi4
+ .text          0x000000000001483c        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000000001483c                __aeabi_ldiv0
+                0x000000000001483c                __aeabi_idiv0
+ .text.srand    0x0000000000014840       0x5c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
+                0x0000000000014840                srand
+ .text.rand     0x000000000001489c       0x7c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
+                0x000000000001489c                rand
  .text.__assert_func
-                0x0000000000014924       0x3c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-assert.o)
-                0x0000000000014924                __assert_func
- .text.fprintf  0x0000000000014960       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fprintf.o)
-                0x0000000000014960                fprintf
-                0x0000000000014960                fiprintf
- .text.malloc   0x0000000000014984       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
-                0x0000000000014984                malloc
- .text._free_r  0x0000000000014994       0x98 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
-                0x0000000000014994                _free_r
+                0x0000000000014918       0x3c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-assert.o)
+                0x0000000000014918                __assert_func
+ .text.fprintf  0x0000000000014954       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fprintf.o)
+                0x0000000000014954                fprintf
+                0x0000000000014954                fiprintf
+ .text.malloc   0x0000000000014978       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+                0x0000000000014978                malloc
+ .text._free_r  0x0000000000014988       0x98 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000000014988                _free_r
  .text.sbrk_aligned
-                0x0000000000014a2c       0x40 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000014a20       0x40 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x0000000000014a6c       0xe8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000000014a6c                _malloc_r
+                0x0000000000014a60       0xe8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000014a60                _malloc_r
  .text._vfprintf_r
-                0x0000000000014b54      0x260 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000000014b54                _vfiprintf_r
-                0x0000000000014b54                _vfprintf_r
+                0x0000000000014b48      0x260 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000014b48                _vfiprintf_r
+                0x0000000000014b48                _vfprintf_r
  .text._printf_i
-                0x0000000000014db4      0x24c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000000014db4                _printf_i
- .text._sbrk_r  0x0000000000015000       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
-                0x0000000000015000                _sbrk_r
+                0x0000000000014da8      0x24c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000014da8                _printf_i
+ .text._sbrk_r  0x0000000000014ff4       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000000014ff4                _sbrk_r
  .text.__swbuf_r
-                0x0000000000015020       0xa4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
-                0x0000000000015020                __swbuf_r
+                0x0000000000015014       0xa4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wbuf.o)
+                0x0000000000015014                __swbuf_r
  .text.__swsetup_r
-                0x00000000000150c4       0xdc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
-                0x00000000000150c4                __swsetup_r
+                0x00000000000150b8       0xdc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-wsetup.o)
+                0x00000000000150b8                __swsetup_r
  .text.__sflush_r
-                0x00000000000151a0      0x10c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
-                0x00000000000151a0                __sflush_r
+                0x0000000000015194      0x10c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+                0x0000000000015194                __sflush_r
  .text._fflush_r
-                0x00000000000152ac       0x78 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
-                0x00000000000152ac                _fflush_r
- .text.std      0x0000000000015324       0x48 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000152a0       0x78 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fflush.o)
+                0x00000000000152a0                _fflush_r
+ .text.std      0x0000000000015318       0x48 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x000000000001536c        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000000001536c                _cleanup_r
+                0x0000000000015360        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000015360                _cleanup_r
  .text.__sfp_lock_acquire
-                0x0000000000015378        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000000015378                __sfp_lock_acquire
+                0x000000000001536c        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000000001536c                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0000000000015384        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000000015384                __sfp_lock_release
+                0x0000000000015378        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000015378                __sfp_lock_release
  .text.__sinit_lock_acquire
-                0x0000000000015390        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000000015390                __sinit_lock_acquire
+                0x0000000000015384        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000015384                __sinit_lock_acquire
  .text.__sinit_lock_release
-                0x000000000001539c        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x000000000001539c                __sinit_lock_release
- .text.__sinit  0x00000000000153a8       0x70 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000153a8                __sinit
- .text.__sfp    0x0000000000015418       0x8c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000000015418                __sfp
+                0x0000000000015390        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000000015390                __sinit_lock_release
+ .text.__sinit  0x000000000001539c       0x70 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000000001539c                __sinit
+ .text.__sfp    0x000000000001540c       0x8c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000000001540c                __sfp
  .text.__smakebuf_r
-                0x00000000000154a4       0x80 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x00000000000154a4                __smakebuf_r
+                0x0000000000015498       0x80 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x0000000000015498                __smakebuf_r
  .text.__malloc_lock
-                0x0000000000015524        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
-                0x0000000000015524                __malloc_lock
+                0x0000000000015518        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+                0x0000000000015518                __malloc_lock
  .text.__malloc_unlock
-                0x0000000000015530        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
-                0x0000000000015530                __malloc_unlock
- .text.raise    0x000000000001553c       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signal.o)
-                0x000000000001553c                raise
- .text._kill_r  0x000000000001554c       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signalr.o)
-                0x000000000001554c                _kill_r
+                0x0000000000015524        0xc /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+                0x0000000000015524                __malloc_unlock
+ .text.raise    0x0000000000015530       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signal.o)
+                0x0000000000015530                raise
+ .text._kill_r  0x0000000000015540       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signalr.o)
+                0x0000000000015540                _kill_r
  .text._write_r
-                0x0000000000015570       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-writer.o)
-                0x0000000000015570                _write_r
+                0x0000000000015564       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-writer.o)
+                0x0000000000015564                _write_r
  .text._close_r
-                0x0000000000015594       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-closer.o)
-                0x0000000000015594                _close_r
+                0x0000000000015588       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-closer.o)
+                0x0000000000015588                _close_r
  .text._fstat_r
-                0x00000000000155b4       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fstatr.o)
-                0x00000000000155b4                _fstat_r
+                0x00000000000155a8       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fstatr.o)
+                0x00000000000155a8                _fstat_r
  .text._isatty_r
-                0x00000000000155d8       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-isattyr.o)
-                0x00000000000155d8                _isatty_r
+                0x00000000000155cc       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-isattyr.o)
+                0x00000000000155cc                _isatty_r
  .text._lseek_r
-                0x00000000000155f8       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lseekr.o)
-                0x00000000000155f8                _lseek_r
- .text._read_r  0x000000000001561c       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-readr.o)
-                0x000000000001561c                _read_r
- .text._close   0x0000000000015640       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
-                0x0000000000015640                _close
- .text._fstat   0x0000000000015650       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(fstat.o)
-                0x0000000000015650                _fstat
- .text._getpid  0x0000000000015660       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(getpid.o)
-                0x0000000000015660                _getpid
- .text._isatty  0x0000000000015670       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(isatty.o)
-                0x0000000000015670                _isatty
- .text._kill    0x0000000000015680       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(kill.o)
-                0x0000000000015680                _kill
- .text._lseek   0x0000000000015690       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
-                0x0000000000015690                _lseek
- .text._read    0x00000000000156a0       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
-                0x00000000000156a0                _read
- .text._write   0x00000000000156b0       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
-                0x00000000000156b0                _write
- .text.memset   0x00000000000156c0       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
-                0x00000000000156c0                memset
- .text.memcmp   0x00000000000156d0       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcmp.o)
-                0x00000000000156d0                memcmp
- .text.memcpy   0x00000000000156f0       0x1c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
-                0x00000000000156f0                memcpy
- .text.memmove  0x000000000001570c       0x34 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
-                0x000000000001570c                memmove
- .text          0x0000000000015740       0x14 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcmp.o)
-                0x0000000000015740                strcmp
- .text.strcpy   0x0000000000015754       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcpy.o)
-                0x0000000000015754                strcpy
- .text          0x0000000000015764       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
-                0x0000000000015764                strlen
+                0x00000000000155ec       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lseekr.o)
+                0x00000000000155ec                _lseek_r
+ .text._read_r  0x0000000000015610       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-readr.o)
+                0x0000000000015610                _read_r
+ .text._close   0x0000000000015634       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(close.o)
+                0x0000000000015634                _close
+ .text._fstat   0x0000000000015644       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(fstat.o)
+                0x0000000000015644                _fstat
+ .text._getpid  0x0000000000015654       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(getpid.o)
+                0x0000000000015654                _getpid
+ .text._isatty  0x0000000000015664       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(isatty.o)
+                0x0000000000015664                _isatty
+ .text._kill    0x0000000000015674       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(kill.o)
+                0x0000000000015674                _kill
+ .text._lseek   0x0000000000015684       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(lseek.o)
+                0x0000000000015684                _lseek
+ .text._read    0x0000000000015694       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
+                0x0000000000015694                _read
+ .text._write   0x00000000000156a4       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
+                0x00000000000156a4                _write
+ .text.memset   0x00000000000156b4       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x00000000000156b4                memset
+ .text.memcmp   0x00000000000156c4       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcmp.o)
+                0x00000000000156c4                memcmp
+ .text.memcpy   0x00000000000156e4       0x1c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                0x00000000000156e4                memcpy
+ .text.memmove  0x0000000000015700       0x34 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o)
+                0x0000000000015700                memmove
+ .text          0x0000000000015734       0x14 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcmp.o)
+                0x0000000000015734                strcmp
+ .text.strcpy   0x0000000000015748       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strcpy.o)
+                0x0000000000015748                strcpy
+ .text          0x0000000000015758       0x10 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+                0x0000000000015758                strlen
  .text.__sfputc_r
-                0x0000000000015774       0x2e /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000015768       0x2e /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x00000000000157a2       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x00000000000157a2                __sfputs_r
+                0x0000000000015796       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000015796                __sfputs_r
  .text._printf_common
-                0x00000000000157c6       0xda /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00000000000157c6                _printf_common
- .text.abort    0x00000000000158a0        0xe /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-abort.o)
-                0x00000000000158a0                abort
+                0x00000000000157ba       0xda /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000157ba                _printf_common
+ .text.abort    0x0000000000015894        0xe /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-abort.o)
+                0x0000000000015894                abort
  .text.__sfmoreglue
-                0x00000000000158ae       0x2c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000158ae                __sfmoreglue
+                0x00000000000158a2       0x2c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000158a2                __sfmoreglue
  .text._fwalk_reent
-                0x00000000000158da       0x3e /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
-                0x00000000000158da                _fwalk_reent
+                0x00000000000158ce       0x3e /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fwalk.o)
+                0x00000000000158ce                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x0000000000015918        0x2 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x0000000000015918                __retarget_lock_init_recursive
+                0x000000000001590c        0x2 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x000000000001590c                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x000000000001591a        0x2 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x000000000001591a                __retarget_lock_acquire_recursive
+                0x000000000001590e        0x2 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x000000000001590e                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000001591c        0x2 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x000000000001591c                __retarget_lock_release_recursive
+                0x0000000000015910        0x2 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x0000000000015910                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x000000000001591e       0x4a /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x000000000001591e                __swhatbuf_r
+                0x0000000000015912       0x4a /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x0000000000015912                __swhatbuf_r
  .text._raise_r
-                0x0000000000015968       0x50 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signal.o)
-                0x0000000000015968                _raise_r
+                0x000000000001595c       0x50 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signal.o)
+                0x000000000001595c                _raise_r
  .text._getpid_r
-                0x00000000000159b8        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signalr.o)
-                0x00000000000159b8                _getpid_r
- .text.__sread  0x00000000000159bc       0x22 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x00000000000159bc                __sread
+                0x00000000000159ac        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-signalr.o)
+                0x00000000000159ac                _getpid_r
+ .text.__sread  0x00000000000159b0       0x22 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x00000000000159b0                __sread
  .text.__swrite
-                0x00000000000159de       0x38 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x00000000000159de                __swrite
- .text.__sseek  0x0000000000015a16       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x0000000000015a16                __sseek
+                0x00000000000159d2       0x38 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x00000000000159d2                __swrite
+ .text.__sseek  0x0000000000015a0a       0x24 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000000015a0a                __sseek
  .text.__sclose
-                0x0000000000015a3a        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x0000000000015a3a                __sclose
+                0x0000000000015a2e        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000000015a2e                __sclose
  *(.init)
- *fill*         0x0000000000015a42        0x2 
- .init          0x0000000000015a44        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000000015a44                _init
- .init          0x0000000000015a48        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *fill*         0x0000000000015a36        0x2 
+ .init          0x0000000000015a38        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000000015a38                _init
+ .init          0x0000000000015a3c        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0000000000015a50        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000000015a50                _fini
- .fini          0x0000000000015a54        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .fini          0x0000000000015a44        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000000015a44                _fini
+ .fini          0x0000000000015a48        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *crtbegin.o(SORT_BY_ALIGNMENT(.ctors))
  *crtbegin?.o(SORT_BY_ALIGNMENT(.ctors))
  *(SORT_BY_ALIGNMENT(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors))
@@ -4490,319 +4490,319 @@ END GROUP
  *(SORT_BY_ALIGNMENT(.dtors))
  *(SORT_BY_ALIGNMENT(.rodata*))
  .rodata._global_impure_ptr
-                0x0000000000015a5c        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
-                0x0000000000015a5c                _global_impure_ptr
+                0x0000000000015a50        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                0x0000000000015a50                _global_impure_ptr
  .rodata.leds_arch_leds
-                0x0000000000015a60        0xc build/nrf52840/dongle/obj/board-leds.o
-                0x0000000000015a60                leds_arch_leds
+                0x0000000000015a54        0xc build/nrf52840/dongle/obj/board-leds.o
+                0x0000000000015a54                leds_arch_leds
  .rodata.str1.4
-                0x0000000000015a6c        0x9 build/nrf52840/dongle/obj/board-buttons.o
- *fill*         0x0000000000015a75        0x3 
+                0x0000000000015a60        0x9 build/nrf52840/dongle/obj/board-buttons.o
+ *fill*         0x0000000000015a69        0x3 
  .rodata.str1.4
-                0x0000000000015a78        0xc build/nrf52840/dongle/obj/temperature-sensor.o
+                0x0000000000015a6c        0xc build/nrf52840/dongle/obj/temperature-sensor.o
  .rodata.temperature_sensor
-                0x0000000000015a84       0x10 build/nrf52840/dongle/obj/temperature-sensor.o
-                0x0000000000015a84                temperature_sensor
- .rodata        0x0000000000015a94        0x6 build/nrf52840/dongle/obj/clock.o
- *fill*         0x0000000000015a9a        0x2 
- .rodata.rtc    0x0000000000015a9c        0x8 build/nrf52840/dongle/obj/clock.o
-                0x0000000000015a9c                rtc
- .rodata        0x0000000000015aa4        0xc build/nrf52840/dongle/obj/watchdog.o
+                0x0000000000015a78       0x10 build/nrf52840/dongle/obj/temperature-sensor.o
+                0x0000000000015a78                temperature_sensor
+ .rodata        0x0000000000015a88        0x6 build/nrf52840/dongle/obj/clock.o
+ *fill*         0x0000000000015a8e        0x2 
+ .rodata.rtc    0x0000000000015a90        0x8 build/nrf52840/dongle/obj/clock.o
+                0x0000000000015a90                rtc
+ .rodata        0x0000000000015a98        0xc build/nrf52840/dongle/obj/watchdog.o
  .rodata.prepare.str1.4
-                0x0000000000015ab0       0x40 build/nrf52840/dongle/obj/nrf52840-ieee.o
+                0x0000000000015aa4       0x40 build/nrf52840/dongle/obj/nrf52840-ieee.o
  .rodata.transmit.str1.4
-                0x0000000000015af0       0x19 build/nrf52840/dongle/obj/nrf52840-ieee.o
- *fill*         0x0000000000015b09        0x3 
+                0x0000000000015ae4       0x19 build/nrf52840/dongle/obj/nrf52840-ieee.o
+ *fill*         0x0000000000015afd        0x3 
  .rodata.str1.4
-                0x0000000000015b0c       0x18 build/nrf52840/dongle/obj/nrf52840-ieee.o
+                0x0000000000015b00       0x18 build/nrf52840/dongle/obj/nrf52840-ieee.o
  .rodata.nrf52840_ieee_driver
-                0x0000000000015b24       0x38 build/nrf52840/dongle/obj/nrf52840-ieee.o
-                0x0000000000015b24                nrf52840_ieee_driver
+                0x0000000000015b18       0x38 build/nrf52840/dongle/obj/nrf52840-ieee.o
+                0x0000000000015b18                nrf52840_ieee_driver
  .rodata.m_app_cdc_acm
-                0x0000000000015b5c       0x24 build/nrf52840/dongle/obj/usb-serial.o
-                0x0000000000015b5c                m_app_cdc_acm
+                0x0000000000015b50       0x24 build/nrf52840/dongle/obj/usb-serial.o
+                0x0000000000015b50                m_app_cdc_acm
  .rodata.usbd_config.0
-                0x0000000000015b80        0xc build/nrf52840/dongle/obj/usb-serial.o
+                0x0000000000015b74        0xc build/nrf52840/dongle/obj/usb-serial.o
  .rodata.m_app_dfu
-                0x0000000000015b8c       0x24 build/nrf52840/dongle/obj/usb-dfu-trigger.o
-                0x0000000000015b8c                m_app_dfu
+                0x0000000000015b80       0x24 build/nrf52840/dongle/obj/usb-dfu-trigger.o
+                0x0000000000015b80                m_app_dfu
  .rodata.m_drv_power_config_default
-                0x0000000000015bb0        0x1 build/nrf52840/dongle/obj/nrf_drv_power.o
- *fill*         0x0000000000015bb1        0x3 
+                0x0000000000015ba4        0x1 build/nrf52840/dongle/obj/nrf_drv_power.o
+ *fill*         0x0000000000015ba5        0x3 
  .rodata.CSWTCH.58
-                0x0000000000015bb4        0x7 build/nrf52840/dongle/obj/app_usbd.o
- *fill*         0x0000000000015bbb        0x1 
+                0x0000000000015ba8        0x7 build/nrf52840/dongle/obj/app_usbd.o
+ *fill*         0x0000000000015baf        0x1 
  .rodata.config.10
-                0x0000000000015bbc        0x4 build/nrf52840/dongle/obj/app_usbd.o
- .rodata.ev.7   0x0000000000015bc0        0x4 build/nrf52840/dongle/obj/app_usbd.o
- .rodata.ev.8   0x0000000000015bc4        0x4 build/nrf52840/dongle/obj/app_usbd.o
- .rodata.ev.9   0x0000000000015bc8        0x4 build/nrf52840/dongle/obj/app_usbd.o
+                0x0000000000015bb0        0x4 build/nrf52840/dongle/obj/app_usbd.o
+ .rodata.ev.7   0x0000000000015bb4        0x4 build/nrf52840/dongle/obj/app_usbd.o
+ .rodata.ev.8   0x0000000000015bb8        0x4 build/nrf52840/dongle/obj/app_usbd.o
+ .rodata.ev.9   0x0000000000015bbc        0x4 build/nrf52840/dongle/obj/app_usbd.o
  .rodata.event_setaddress.11
-                0x0000000000015bcc        0x4 build/nrf52840/dongle/obj/app_usbd.o
+                0x0000000000015bc0        0x4 build/nrf52840/dongle/obj/app_usbd.o
  .rodata.evt_data.0
+                0x0000000000015bc4        0x1 build/nrf52840/dongle/obj/app_usbd.o
+ *fill*         0x0000000000015bc5        0x3 
+ .rodata.evt_data.2
+                0x0000000000015bc8        0x1 build/nrf52840/dongle/obj/app_usbd.o
+ *fill*         0x0000000000015bc9        0x3 
+ .rodata.evt_data.3
+                0x0000000000015bcc        0x1 build/nrf52840/dongle/obj/app_usbd.o
+ *fill*         0x0000000000015bcd        0x3 
+ .rodata.evt_data.4
                 0x0000000000015bd0        0x1 build/nrf52840/dongle/obj/app_usbd.o
  *fill*         0x0000000000015bd1        0x3 
- .rodata.evt_data.2
+ .rodata.evt_data.5
                 0x0000000000015bd4        0x1 build/nrf52840/dongle/obj/app_usbd.o
  *fill*         0x0000000000015bd5        0x3 
- .rodata.evt_data.3
+ .rodata.evt_data.6
                 0x0000000000015bd8        0x1 build/nrf52840/dongle/obj/app_usbd.o
  *fill*         0x0000000000015bd9        0x3 
- .rodata.evt_data.4
-                0x0000000000015bdc        0x1 build/nrf52840/dongle/obj/app_usbd.o
- *fill*         0x0000000000015bdd        0x3 
- .rodata.evt_data.5
-                0x0000000000015be0        0x1 build/nrf52840/dongle/obj/app_usbd.o
- *fill*         0x0000000000015be1        0x3 
- .rodata.evt_data.6
-                0x0000000000015be4        0x1 build/nrf52840/dongle/obj/app_usbd.o
- *fill*         0x0000000000015be5        0x3 
  .rodata.app_usbd_cdc_acm_class_methods
-                0x0000000000015be8       0x14 build/nrf52840/dongle/obj/app_usbd_cdc_acm.o
-                0x0000000000015be8                app_usbd_cdc_acm_class_methods
+                0x0000000000015bdc       0x14 build/nrf52840/dongle/obj/app_usbd_cdc_acm.o
+                0x0000000000015bdc                app_usbd_cdc_acm_class_methods
  .rodata.app_usbd_core_inst
-                0x0000000000015bfc       0x10 build/nrf52840/dongle/obj/app_usbd_core.o
-                0x0000000000015bfc                app_usbd_core_inst
+                0x0000000000015bf0       0x10 build/nrf52840/dongle/obj/app_usbd_core.o
+                0x0000000000015bf0                app_usbd_core_inst
  .rodata.evt_data.0
-                0x0000000000015c0c        0x1 build/nrf52840/dongle/obj/app_usbd_core.o
- *fill*         0x0000000000015c0d        0x3 
+                0x0000000000015c00        0x1 build/nrf52840/dongle/obj/app_usbd_core.o
+ *fill*         0x0000000000015c01        0x3 
  .rodata.m_configuration_dsc
-                0x0000000000015c10        0x9 build/nrf52840/dongle/obj/app_usbd_core.o
- *fill*         0x0000000000015c19        0x3 
+                0x0000000000015c04        0x9 build/nrf52840/dongle/obj/app_usbd_core.o
+ *fill*         0x0000000000015c0d        0x3 
  .rodata.m_core_methods
-                0x0000000000015c1c       0x14 build/nrf52840/dongle/obj/app_usbd_core.o
+                0x0000000000015c10       0x14 build/nrf52840/dongle/obj/app_usbd_core.o
  .rodata.m_device_dsc
-                0x0000000000015c30       0x12 build/nrf52840/dongle/obj/app_usbd_core.o
- *fill*         0x0000000000015c42        0x2 
+                0x0000000000015c24       0x12 build/nrf52840/dongle/obj/app_usbd_core.o
+ *fill*         0x0000000000015c36        0x2 
  .rodata.m_setup_data_handler_empty_desc
-                0x0000000000015c44        0x8 build/nrf52840/dongle/obj/app_usbd_core.o
+                0x0000000000015c38        0x8 build/nrf52840/dongle/obj/app_usbd_core.o
  .rodata.usbd_descriptor_feeder_desc
-                0x0000000000015c4c        0x8 build/nrf52840/dongle/obj/app_usbd_core.o
+                0x0000000000015c40        0x8 build/nrf52840/dongle/obj/app_usbd_core.o
  .rodata.app_usbd_serial_num_generate.str1.4
-                0x0000000000015c54        0xb build/nrf52840/dongle/obj/app_usbd_serial_num.o
- *fill*         0x0000000000015c5f        0x1 
+                0x0000000000015c48        0xb build/nrf52840/dongle/obj/app_usbd_serial_num.o
+ *fill*         0x0000000000015c53        0x1 
  .rodata.__compound_literal.1
-                0x0000000000015c60        0x6 build/nrf52840/dongle/obj/app_usbd_string_desc.o
- *fill*         0x0000000000015c66        0x2 
+                0x0000000000015c54        0x6 build/nrf52840/dongle/obj/app_usbd_string_desc.o
+ *fill*         0x0000000000015c5a        0x2 
  .rodata.__compound_literal.2
-                0x0000000000015c68       0x15 build/nrf52840/dongle/obj/app_usbd_string_desc.o
- *fill*         0x0000000000015c7d        0x3 
+                0x0000000000015c5c       0x15 build/nrf52840/dongle/obj/app_usbd_string_desc.o
+ *fill*         0x0000000000015c71        0x3 
  .rodata.__compound_literal.3
-                0x0000000000015c80       0x1c build/nrf52840/dongle/obj/app_usbd_string_desc.o
+                0x0000000000015c74       0x1c build/nrf52840/dongle/obj/app_usbd_string_desc.o
  .rodata.__compound_literal.4
-                0x0000000000015c9c       0x16 build/nrf52840/dongle/obj/app_usbd_string_desc.o
- *fill*         0x0000000000015cb2        0x2 
+                0x0000000000015c90       0x16 build/nrf52840/dongle/obj/app_usbd_string_desc.o
+ *fill*         0x0000000000015ca6        0x2 
  .rodata.__compound_literal.5
-                0x0000000000015cb4        0x7 build/nrf52840/dongle/obj/app_usbd_string_desc.o
- *fill*         0x0000000000015cbb        0x1 
+                0x0000000000015ca8        0x7 build/nrf52840/dongle/obj/app_usbd_string_desc.o
+ *fill*         0x0000000000015caf        0x1 
  .rodata.m_string_dsc
-                0x0000000000015cbc       0x18 build/nrf52840/dongle/obj/app_usbd_string_desc.o
+                0x0000000000015cb0       0x18 build/nrf52840/dongle/obj/app_usbd_string_desc.o
  .rodata.m_string_translation
-                0x0000000000015cd4        0x6 build/nrf52840/dongle/obj/app_usbd_string_desc.o
- *fill*         0x0000000000015cda        0x2 
+                0x0000000000015cc8        0x6 build/nrf52840/dongle/obj/app_usbd_string_desc.o
+ *fill*         0x0000000000015cce        0x2 
  .rodata.epin_bitpos.1
-                0x0000000000015cdc        0x9 build/nrf52840/dongle/obj/nrfx_usbd.o
- *fill*         0x0000000000015ce5        0x3 
+                0x0000000000015cd0        0x9 build/nrf52840/dongle/obj/nrfx_usbd.o
+ *fill*         0x0000000000015cd9        0x3 
  .rodata.epin_endev.3
-                0x0000000000015ce8       0x12 build/nrf52840/dongle/obj/nrfx_usbd.o
- *fill*         0x0000000000015cfa        0x2 
+                0x0000000000015cdc       0x12 build/nrf52840/dongle/obj/nrfx_usbd.o
+ *fill*         0x0000000000015cee        0x2 
  .rodata.epout_bitpos.0
-                0x0000000000015cfc        0x9 build/nrf52840/dongle/obj/nrfx_usbd.o
- *fill*         0x0000000000015d05        0x3 
+                0x0000000000015cf0        0x9 build/nrf52840/dongle/obj/nrfx_usbd.o
+ *fill*         0x0000000000015cf9        0x3 
  .rodata.epout_endev.2
-                0x0000000000015d08       0x12 build/nrf52840/dongle/obj/nrfx_usbd.o
- *fill*         0x0000000000015d1a        0x2 
- .rodata.m_isr  0x0000000000015d1c       0x64 build/nrf52840/dongle/obj/nrfx_usbd.o
+                0x0000000000015cfc       0x12 build/nrf52840/dongle/obj/nrfx_usbd.o
+ *fill*         0x0000000000015d0e        0x2 
+ .rodata.m_isr  0x0000000000015d10       0x64 build/nrf52840/dongle/obj/nrfx_usbd.o
  .rodata.app_usbd_nrf_dfu_trigger_class_methods
-                0x0000000000015d80       0x14 build/nrf52840/dongle/obj/app_usbd_nrf_dfu_trigger.o
-                0x0000000000015d80                app_usbd_nrf_dfu_trigger_class_methods
+                0x0000000000015d74       0x14 build/nrf52840/dongle/obj/app_usbd_nrf_dfu_trigger.o
+                0x0000000000015d74                app_usbd_nrf_dfu_trigger_class_methods
  .rodata.process_thread_mqtt_process.str1.4
-                0x0000000000015d94        0x7 build/nrf52840/dongle/obj/mqtt.o
- *fill*         0x0000000000015d9b        0x1 
+                0x0000000000015d88        0x7 build/nrf52840/dongle/obj/mqtt.o
+ *fill*         0x0000000000015d8f        0x1 
  .rodata.str1.4
-                0x0000000000015d9c        0xd build/nrf52840/dongle/obj/mqtt.o
- *fill*         0x0000000000015da9        0x3 
+                0x0000000000015d90        0xd build/nrf52840/dongle/obj/mqtt.o
+ *fill*         0x0000000000015d9d        0x3 
  .rodata.main.str1.4
-                0x0000000000015dac       0xe0 build/nrf52840/dongle/obj/contiki-main.o
+                0x0000000000015da0       0xe0 build/nrf52840/dongle/obj/contiki-main.o
                                          0xf4 (size before relaxing)
  .rodata.str1.4
-                0x0000000000015e8c        0xf build/nrf52840/dongle/obj/ctimer.o
- *fill*         0x0000000000015e9b        0x1 
+                0x0000000000015e80        0xf build/nrf52840/dongle/obj/ctimer.o
+ *fill*         0x0000000000015e8f        0x1 
  .rodata.str1.4
-                0x0000000000015e9c        0xc build/nrf52840/dongle/obj/etimer.o
+                0x0000000000015e90        0xc build/nrf52840/dongle/obj/etimer.o
  .rodata.log_6addr.str1.4
-                0x0000000000015ea8        0x3 build/nrf52840/dongle/obj/log.o
- *fill*         0x0000000000015eab        0x1 
+                0x0000000000015e9c        0x3 build/nrf52840/dongle/obj/log.o
+ *fill*         0x0000000000015e9f        0x1 
  .rodata.log_lladdr.str1.4
-                0x0000000000015eac       0x12 build/nrf52840/dongle/obj/log.o
+                0x0000000000015ea0       0x12 build/nrf52840/dongle/obj/log.o
                                          0x19 (size before relaxing)
- *fill*         0x0000000000015ebe        0x2 
+ *fill*         0x0000000000015eb2        0x2 
  .rodata.process_thread_stack_check_process.str1.4
-                0x0000000000015ec0       0x4f build/nrf52840/dongle/obj/stack-check.o
+                0x0000000000015eb4       0x4f build/nrf52840/dongle/obj/stack-check.o
                                          0x63 (size before relaxing)
- *fill*         0x0000000000015f0f        0x1 
+ *fill*         0x0000000000015f03        0x1 
  .rodata.str1.4
-                0x0000000000015f10        0xc build/nrf52840/dongle/obj/stack-check.o
+                0x0000000000015f04        0xc build/nrf52840/dongle/obj/stack-check.o
  .rodata.str1.4
-                0x0000000000015f1c        0x8 build/nrf52840/dongle/obj/sensors.o
+                0x0000000000015f10        0x8 build/nrf52840/dongle/obj/sensors.o
  .rodata.str1.4
-                0x0000000000015f24       0x13 build/nrf52840/dongle/obj/button-hal.o
- *fill*         0x0000000000015f37        0x1 
+                0x0000000000015f18       0x13 build/nrf52840/dongle/obj/button-hal.o
+ *fill*         0x0000000000015f2b        0x1 
  .rodata.str1.4
-                0x0000000000015f38        0xe build/nrf52840/dongle/obj/serial-line.o
- *fill*         0x0000000000015f46        0x2 
+                0x0000000000015f2c        0xe build/nrf52840/dongle/obj/serial-line.o
+ *fill*         0x0000000000015f3a        0x2 
  .rodata.linkaddr_null
-                0x0000000000015f48        0x8 build/nrf52840/dongle/obj/linkaddr.o
-                0x0000000000015f48                linkaddr_null
+                0x0000000000015f3c        0x8 build/nrf52840/dongle/obj/linkaddr.o
+                0x0000000000015f3c                linkaddr_null
  .rodata.framer_802154
-                0x0000000000015f50        0xc build/nrf52840/dongle/obj/framer-802154.o
-                0x0000000000015f50                framer_802154
+                0x0000000000015f44        0xc build/nrf52840/dongle/obj/framer-802154.o
+                0x0000000000015f44                framer_802154
  .rodata.format_str_v.str1.4
-                0x0000000000015f5c       0x46 build/nrf52840/dongle/obj/strformat.o
- *fill*         0x0000000000015fa2        0x2 
+                0x0000000000015f50       0x46 build/nrf52840/dongle/obj/strformat.o
+ *fill*         0x0000000000015f96        0x2 
  .rodata.buffer.0
-                0x0000000000015fa4       0x10 build/nrf52840/dongle/obj/strformat.o
+                0x0000000000015f98       0x10 build/nrf52840/dongle/obj/strformat.o
  .rodata.buffer.1
-                0x0000000000015fb4       0x10 build/nrf52840/dongle/obj/strformat.o
+                0x0000000000015fa8       0x10 build/nrf52840/dongle/obj/strformat.o
  .rodata.str1.4
-                0x0000000000015fc4        0x5 build/nrf52840/dongle/obj/csma.o
- *fill*         0x0000000000015fc9        0x3 
+                0x0000000000015fb8        0x5 build/nrf52840/dongle/obj/csma.o
+ *fill*         0x0000000000015fbd        0x3 
  .rodata.csma_driver
-                0x0000000000015fcc       0x1c build/nrf52840/dongle/obj/csma.o
-                0x0000000000015fcc                csma_driver
+                0x0000000000015fc0       0x1c build/nrf52840/dongle/obj/csma.o
+                0x0000000000015fc0                csma_driver
  .rodata.str1.4
-                0x0000000000015fe8        0xb build/nrf52840/dongle/obj/sicslowpan.o
- *fill*         0x0000000000015ff3        0x1 
+                0x0000000000015fdc        0xb build/nrf52840/dongle/obj/sicslowpan.o
+ *fill*         0x0000000000015fe7        0x1 
  .rodata.CSWTCH.461
-                0x0000000000015ff4        0x4 build/nrf52840/dongle/obj/sicslowpan.o
+                0x0000000000015fe8        0x4 build/nrf52840/dongle/obj/sicslowpan.o
  .rodata.llprefix
-                0x0000000000015ff8        0x2 build/nrf52840/dongle/obj/sicslowpan.o
-                0x0000000000015ff8                llprefix
- *fill*         0x0000000000015ffa        0x2 
+                0x0000000000015fec        0x2 build/nrf52840/dongle/obj/sicslowpan.o
+                0x0000000000015fec                llprefix
+ *fill*         0x0000000000015fee        0x2 
  .rodata.sicslowpan_driver
-                0x0000000000015ffc       0x10 build/nrf52840/dongle/obj/sicslowpan.o
-                0x0000000000015ffc                sicslowpan_driver
+                0x0000000000015ff0       0x10 build/nrf52840/dongle/obj/sicslowpan.o
+                0x0000000000015ff0                sicslowpan_driver
  .rodata.ttl_values
-                0x000000000001600c        0x4 build/nrf52840/dongle/obj/sicslowpan.o
+                0x0000000000016000        0x4 build/nrf52840/dongle/obj/sicslowpan.o
  .rodata.unc_ctxconf
-                0x0000000000016010        0x4 build/nrf52840/dongle/obj/sicslowpan.o
-                0x0000000000016010                unc_ctxconf
+                0x0000000000016004        0x4 build/nrf52840/dongle/obj/sicslowpan.o
+                0x0000000000016004                unc_ctxconf
  .rodata.unc_llconf
-                0x0000000000016014        0x4 build/nrf52840/dongle/obj/sicslowpan.o
-                0x0000000000016014                unc_llconf
+                0x0000000000016008        0x4 build/nrf52840/dongle/obj/sicslowpan.o
+                0x0000000000016008                unc_llconf
  .rodata.unc_mxconf
-                0x0000000000016018        0x4 build/nrf52840/dongle/obj/sicslowpan.o
-                0x0000000000016018                unc_mxconf
+                0x000000000001600c        0x4 build/nrf52840/dongle/obj/sicslowpan.o
+                0x000000000001600c                unc_mxconf
  .rodata.str1.4
-                0x000000000001601c       0x13 build/nrf52840/dongle/obj/tcp-socket.o
- *fill*         0x000000000001602f        0x1 
+                0x0000000000016010       0x13 build/nrf52840/dongle/obj/tcp-socket.o
+ *fill*         0x0000000000016023        0x1 
  .rodata.str1.4
-                0x0000000000016030        0xd build/nrf52840/dongle/obj/tcpip.o
- *fill*         0x000000000001603d        0x3 
+                0x0000000000016024        0xd build/nrf52840/dongle/obj/tcpip.o
+ *fill*         0x0000000000016031        0x3 
  .rodata.uiplib_ipaddr_snprint.part.0.str1.4
-                0x0000000000016040       0x1f build/nrf52840/dongle/obj/uiplib.o
- *fill*         0x000000000001605f        0x1 
+                0x0000000000016034       0x1f build/nrf52840/dongle/obj/uiplib.o
+ *fill*         0x0000000000016053        0x1 
  .rodata.uiplib_ipaddr_print.str1.4
-                0x0000000000016060        0xf build/nrf52840/dongle/obj/uiplib.o
+                0x0000000000016054        0xf build/nrf52840/dongle/obj/uiplib.o
                                          0x13 (size before relaxing)
- *fill*         0x000000000001606f        0x1 
+ *fill*         0x0000000000016063        0x1 
  .rodata.rpl_dag_update_state.part.0.str1.4
-                0x0000000000016070       0x33 build/nrf52840/dongle/obj/rpl-dag.o
- *fill*         0x00000000000160a3        0x1 
+                0x0000000000016064       0x33 build/nrf52840/dongle/obj/rpl-dag.o
+ *fill*         0x0000000000016097        0x1 
  .rodata.rpl_global_repair.str1.4
-                0x00000000000160a4        0xd build/nrf52840/dongle/obj/rpl-dag.o
- *fill*         0x00000000000160b1        0x3 
+                0x0000000000016098        0xd build/nrf52840/dongle/obj/rpl-dag.o
+ *fill*         0x00000000000160a5        0x3 
  .rodata.rpl_process_dio.str1.4
-                0x00000000000160b4       0x3d build/nrf52840/dongle/obj/rpl-dag.o
- *fill*         0x00000000000160f1        0x3 
+                0x00000000000160a8       0x3d build/nrf52840/dongle/obj/rpl-dag.o
+ *fill*         0x00000000000160e5        0x3 
  .rodata.rpl_process_dis.str1.4
-                0x00000000000160f4        0xe build/nrf52840/dongle/obj/rpl-dag.o
- *fill*         0x0000000000016102        0x2 
+                0x00000000000160e8        0xe build/nrf52840/dongle/obj/rpl-dag.o
+ *fill*         0x00000000000160f6        0x2 
  .rodata.rpl_process_dao_ack.str1.4
+                0x00000000000160f8        0xa build/nrf52840/dongle/obj/rpl-dag.o
+ *fill*         0x0000000000016102        0x2 
+ .rodata.rpl_dag_init_root.str1.4
                 0x0000000000016104        0xa build/nrf52840/dongle/obj/rpl-dag.o
  *fill*         0x000000000001610e        0x2 
- .rodata.rpl_dag_init_root.str1.4
-                0x0000000000016110        0xa build/nrf52840/dongle/obj/rpl-dag.o
- *fill*         0x000000000001611a        0x2 
  .rodata.resend_dao.str1.4
-                0x000000000001611c        0xc build/nrf52840/dongle/obj/rpl-timers.o
+                0x0000000000016110        0xc build/nrf52840/dongle/obj/rpl-timers.o
  .rodata.str1.4
-                0x0000000000016128        0x9 build/nrf52840/dongle/obj/rpl.o
- *fill*         0x0000000000016131        0x3 
+                0x000000000001611c        0x9 build/nrf52840/dongle/obj/rpl.o
+ *fill*         0x0000000000016125        0x3 
  .rodata.rpl_lite_driver
-                0x0000000000016134       0x54 build/nrf52840/dongle/obj/rpl.o
-                0x0000000000016134                rpl_lite_driver
+                0x0000000000016128       0x54 build/nrf52840/dongle/obj/rpl.o
+                0x0000000000016128                rpl_lite_driver
  .rodata.mqtt_event.str1.4
-                0x0000000000016188      0x1c4 temperature_redwine.o
+                0x000000000001617c      0x1c4 temperature_redwine.o
                                         0x1e0 (size before relaxing)
  .rodata.process_thread_process_for_temperature_redwine_sensor.str1.4
-                0x000000000001634c      0x156 temperature_redwine.o
-                                        0x15a (size before relaxing)
- *fill*         0x00000000000164a2        0x2 
+                0x0000000000016340      0x142 temperature_redwine.o
+                                        0x146 (size before relaxing)
+ *fill*         0x0000000000016482        0x2 
  .rodata.str1.4
-                0x00000000000164a4       0x23 temperature_redwine.o
- *fill*         0x00000000000164c7        0x1 
+                0x0000000000016484       0x23 temperature_redwine.o
+ *fill*         0x00000000000164a7        0x1 
  .rodata.autostart_processes
-                0x00000000000164c8        0x8 temperature_redwine.o
-                0x00000000000164c8                autostart_processes
+                0x00000000000164a8        0x8 temperature_redwine.o
+                0x00000000000164a8                autostart_processes
  .rodata.__sf_fake_stderr
-                0x00000000000164d0       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000164d0                __sf_fake_stderr
+                0x00000000000164b0       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000164b0                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x00000000000164f0       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000000164f0                __sf_fake_stdin
+                0x00000000000164d0       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000164d0                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0000000000016510       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000000016510                __sf_fake_stdout
+                0x00000000000164f0       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000000164f0                __sf_fake_stdout
  .rodata.button_hal_button_count
-                0x0000000000016530        0x1 build/nrf52840/dongle/obj/board-buttons.o
-                0x0000000000016530                button_hal_button_count
+                0x0000000000016510        0x1 build/nrf52840/dongle/obj/board-buttons.o
+                0x0000000000016510                button_hal_button_count
  .rodata.srand.str1.1
-                0x0000000000016531       0x95 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
+                0x0000000000016511       0x95 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-rand.o)
  .rodata.__assert_func.str1.1
-                0x00000000000165c6       0x3c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-assert.o)
+                0x00000000000165a6       0x3c /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-assert.o)
                                          0x3d (size before relaxing)
  .rodata._vfprintf_r.str1.1
-                0x0000000000016602       0x11 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000000165e2       0x11 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000000016613       0x22 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000165f3       0x22 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
  *(SORT_BY_ALIGNMENT(.eh_frame*))
- *fill*         0x0000000000016635        0x3 
- .eh_frame      0x0000000000016638        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
- .eh_frame      0x0000000000016638        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ *fill*         0x0000000000016615        0x3 
+ .eh_frame      0x0000000000016618        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0000000000016618        0x4 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
 
-.glue_7         0x000000000001663c        0x0
- .glue_7        0x000000000001663c        0x0 linker stubs
+.glue_7         0x000000000001661c        0x0
+ .glue_7        0x000000000001661c        0x0 linker stubs
 
-.glue_7t        0x000000000001663c        0x0
- .glue_7t       0x000000000001663c        0x0 linker stubs
+.glue_7t        0x000000000001661c        0x0
+ .glue_7t       0x000000000001661c        0x0 linker stubs
 
-.vfp11_veneer   0x000000000001663c        0x0
- .vfp11_veneer  0x000000000001663c        0x0 linker stubs
+.vfp11_veneer   0x000000000001661c        0x0
+ .vfp11_veneer  0x000000000001661c        0x0 linker stubs
 
-.v4_bx          0x000000000001663c        0x0
- .v4_bx         0x000000000001663c        0x0 linker stubs
+.v4_bx          0x000000000001661c        0x0
+ .v4_bx         0x000000000001661c        0x0 linker stubs
 
-.iplt           0x000000000001663c        0x0
- .iplt          0x000000000001663c        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x000000000001661c        0x0
+ .iplt          0x000000000001661c        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .ARM.extab
  *(SORT_BY_ALIGNMENT(.ARM.extab*) SORT_BY_ALIGNMENT(.gnu.linkonce.armextab.*))
-                0x000000000001663c                __exidx_start = .
+                0x000000000001661c                __exidx_start = .
 
-.ARM.exidx      0x000000000001663c        0x8
+.ARM.exidx      0x000000000001661c        0x8
  *(SORT_BY_ALIGNMENT(.ARM.exidx*) SORT_BY_ALIGNMENT(.gnu.linkonce.armexidx.*))
- .ARM.exidx     0x000000000001663c        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x000000000001661c        0x8 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
                                          0x10 (size before relaxing)
- .ARM.exidx     0x0000000000016644        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0000000000016624        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
                                           0x8 (size before relaxing)
-                0x0000000000016644                __exidx_end = .
-                0x0000000000016644                __etext = .
+                0x0000000000016624                __exidx_end = .
+                0x0000000000016624                __etext = .
 
-.rel.dyn        0x0000000000016644        0x0
- .rel.iplt      0x0000000000016644        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x0000000000016624        0x0
+ .rel.iplt      0x0000000000016624        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x0000000020000008      0x2c4 load address 0x0000000000016644
+.data           0x0000000020000008      0x2c4 load address 0x0000000000016624
                 0x0000000020000008                __data_start__ = .
  *(SORT_BY_ALIGNMENT(vtable))
  *(SORT_BY_ALIGNMENT(.data*))
@@ -4934,10 +4934,10 @@ END GROUP
                 0x00000000200002cc                . = ALIGN (0x4)
                 0x00000000200002cc                __data_end__ = .
 
-.igot.plt       0x00000000200002cc        0x0 load address 0x0000000000016908
+.igot.plt       0x00000000200002cc        0x0 load address 0x00000000000168e8
  .igot.plt      0x00000000200002cc        0x0 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.bss            0x00000000200002cc     0x3578 load address 0x0000000000016908
+.bss            0x00000000200002cc     0x3578 load address 0x00000000000168e8
                 0x00000000200002cc                . = ALIGN (0x4)
                 0x00000000200002cc                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(.bss*))
@@ -5439,8 +5439,8 @@ END GROUP
                 0x0000000020040000                PROVIDE (__stack = __StackTop)
                 0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
                 0x00000000000002c4                DataInitFlashUsed = (__bss_start__ - __data_start__)
-                0x0000000000015644                CodeFlashUsed = (__etext - ORIGIN (FLASH))
-                0x0000000000015908                TotalFlashUsed = (CodeFlashUsed + DataInitFlashUsed)
+                0x0000000000015624                CodeFlashUsed = (__etext - ORIGIN (FLASH))
+                0x00000000000158e8                TotalFlashUsed = (CodeFlashUsed + DataInitFlashUsed)
                 0x0000000000000001                ASSERT ((TotalFlashUsed <= LENGTH (FLASH)), region FLASH overflowed with .data and user data)
                 0x0000000020003848                _stack = end
                 0x0000000020040000                _stack_origin = (ORIGIN (RAM) + LENGTH (RAM))
@@ -6011,7 +6011,7 @@ LOAD linker stubs
  .debug_frame   0x0000000000007008       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(read.o)
  .debug_frame   0x0000000000007028       0x20 /usr/local/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(write.o)
 
-.debug_info     0x0000000000000000    0x5f3ef
+.debug_info     0x0000000000000000    0x5f3d8
  .debug_info    0x0000000000000000      0x10f build/nrf52840/dongle/obj/board-leds.o
  .debug_info    0x000000000000010f      0x364 build/nrf52840/dongle/obj/board-buttons.o
  .debug_info    0x0000000000000473      0x13d build/nrf52840/dongle/obj/nrf52840dongle-sensors.o
@@ -6111,7 +6111,7 @@ LOAD linker stubs
  .debug_info    0x0000000000059536     0x19e7 build/nrf52840/dongle/obj/rpl-neighbor.o
  .debug_info    0x000000000005af1d     0x1746 build/nrf52840/dongle/obj/rpl-timers.o
  .debug_info    0x000000000005c663     0x1552 build/nrf52840/dongle/obj/rpl.o
- .debug_info    0x000000000005dbb5     0x183a temperature_redwine.o
+ .debug_info    0x000000000005dbb5     0x1823 temperature_redwine.o
 
 .debug_abbrev   0x0000000000000000    0x1227a
  .debug_abbrev  0x0000000000000000       0x94 build/nrf52840/dongle/obj/board-leds.o
@@ -6417,7 +6417,7 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000002548       0x28 temperature_redwine.o
 
-.debug_line     0x0000000000000000    0x3372d
+.debug_line     0x0000000000000000    0x33728
  .debug_line    0x0000000000000000       0xe5 build/nrf52840/dongle/obj/board-leds.o
  .debug_line    0x00000000000000e5      0x170 build/nrf52840/dongle/obj/board-buttons.o
  .debug_line    0x0000000000000255       0xb5 build/nrf52840/dongle/obj/nrf52840dongle-sensors.o
@@ -6517,7 +6517,7 @@ LOAD linker stubs
  .debug_line    0x0000000000031153      0xc10 build/nrf52840/dongle/obj/rpl-neighbor.o
  .debug_line    0x0000000000031d63      0xae1 build/nrf52840/dongle/obj/rpl-timers.o
  .debug_line    0x0000000000032844      0x65e build/nrf52840/dongle/obj/rpl.o
- .debug_line    0x0000000000032ea2      0x88b temperature_redwine.o
+ .debug_line    0x0000000000032ea2      0x886 temperature_redwine.o
 
 .debug_str      0x0000000000000000    0x15228
  .debug_str     0x0000000000000000      0x20f build/nrf52840/dongle/obj/board-leds.o

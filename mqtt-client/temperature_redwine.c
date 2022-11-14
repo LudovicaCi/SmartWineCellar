@@ -179,7 +179,6 @@ PROCESS_THREAD(process_for_temperature_redwine_sensor, ev, data) {
     
     btn = button_hal_get_by_index(0);
     
-	printf("Sensore Partito\n");
 	static mqtt_status_t status;
 	static char broker_address[CONFIG_IP_ADDR_STR_LEN];
 
