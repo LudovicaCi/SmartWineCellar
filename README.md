@@ -1,5 +1,5 @@
 # Internet of Things Project 
-## Wine Cellar Control System
+## Smart Wine Cellar Control System
 
 ## Project Overview
 
